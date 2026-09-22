@@ -1,4 +1,4 @@
-const CACHE = "utility-dock-v1";
+const CACHE = "utility-dock-v2";
 const SHELL = ["/", "/json", "/manifest.webmanifest", "/favicon.svg", "/icon-192.png", "/icon-512.png"];
 
 self.addEventListener("install", (event) => {

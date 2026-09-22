@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { Check, Clipboard, Download, Eraser, FileJson2, ListTree, Minimize2, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SiteHeader } from "@/components/site-header";
+import { JsonCodeEditor } from "./json-code-editor";
 import { jsonStats, minifyJson, parseJson, sortJson, type JsonResult } from "../domain/json";
 
 const sample = `{
@@ -140,19 +141,15 @@ export function JsonEditor() {
               </div>
               <span className={`status status-${notice.kind}`}><i />{notice.message}</span>
             </div>
-            <label className="sr-only" htmlFor="json-input">JSON input</label>
-            <textarea
+            <JsonCodeEditor
               id="json-input"
+              label="JSON input"
               value={input}
-              onChange={(event) => {
-                setInput(event.target.value);
+              onChange={(value) => {
+                setInput(value);
                 setNotice({ kind: "neutral", message: "Changes not formatted" });
               }}
-              spellCheck={false}
-              autoCapitalize="off"
-              autoCorrect="off"
               placeholder={'{\n  "paste": "json here"\n}'}
-              className="code-area"
             />
           </section>
 
@@ -171,7 +168,13 @@ export function JsonEditor() {
                 </Button>
               </div>
             </div>
-            <pre className="code-output" tabIndex={0}>{output || <span className="text-muted-foreground">Formatted JSON will appear here.</span>}</pre>
+            <JsonCodeEditor
+              id="json-output"
+              label="JSON output"
+              value={output}
+              onChange={setOutput}
+              placeholder="Formatted JSON will appear here."
+            />
           </section>
         </div>
       </main>
