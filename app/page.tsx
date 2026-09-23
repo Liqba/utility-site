@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Braces } from "lucide-react";
+import { ArrowRight, Braces, FileText } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { tools } from "@/features/tools/catalog";
 
@@ -14,13 +14,16 @@ export default function Home() {
             {tools.map((tool) => (
               <article key={tool.slug} className="tool-card">
                 <div className="flex items-start justify-between gap-6">
-                  <span className="tool-icon" aria-hidden="true"><Braces size={22} strokeWidth={1.8} /></span>
-                  <span className="text-xs text-muted-foreground">JSON</span>
+                  <span className="tool-icon" aria-hidden="true">
+                    {tool.kind === "json" ? <Braces size={22} strokeWidth={1.8} /> : <FileText size={22} strokeWidth={1.8} />}
+                  </span>
+                  <span className="text-xs text-muted-foreground">{tool.kind === "json" ? "JSON" : "WRITING"}</span>
                 </div>
                 <div className="mt-8">
                   <h3 className="text-xl font-semibold tracking-tight">{tool.name}</h3>
+                  <p className="mt-2 max-w-md text-sm leading-6 text-muted-foreground">{tool.description}</p>
                   <Link href={tool.href} className="open-tool-button">
-                    Open editor <ArrowRight size={16} />
+                    Open {tool.kind === "json" ? "editor" : "workspace"} <ArrowRight size={16} />
                   </Link>
                 </div>
               </article>

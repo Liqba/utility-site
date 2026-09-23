@@ -97,6 +97,17 @@ button, a, textarea { -webkit-tap-highlight-color: transparent; }
 .status-error { color: #fda4af !important; }
 .status-error i { background: #fb7185; }
 
+.text-editor-pane .milkdown-root { min-height: 0; flex: 1; overflow: auto; padding: clamp(1.25rem, 5vw, 4rem); }
+.text-editor-pane .milkdown { --crepe-color-background: #0b0f15; --crepe-color-on-background: #edf4f5; --crepe-color-surface: #111720; --crepe-color-on-surface: #edf4f5; --crepe-color-on-surface-variant: #a7b3c1; --crepe-color-outline: #263242; --crepe-color-primary: #5eead4; --crepe-color-secondary: #18212b; --crepe-color-on-secondary: #edf4f5; --crepe-color-inline-code: #a5f3fc; --crepe-color-code: #10161e; --crepe-font-default: var(--font-sans); --crepe-font-title: var(--font-sans); --crepe-font-code: var(--font-mono); color: #edf4f5; }
+.text-editor-pane .milkdown .ProseMirror { min-height: 55vh; outline: none; }
+.text-editor-pane .milkdown .ProseMirror > * { max-width: 760px; margin-right: auto; margin-left: auto; }
+.text-editor-pane .milkdown .ProseMirror p { color: #d5dee5; line-height: 1.8; }
+.text-editor-pane .milkdown .ProseMirror h1, .text-editor-pane .milkdown .ProseMirror h2, .text-editor-pane .milkdown .ProseMirror h3 { color: #f3f7f8; letter-spacing: -.025em; }
+.text-editor-pane .milkdown .ProseMirror a { color: #5eead4; }
+.text-editor-pane .milkdown .ProseMirror blockquote { border-color: rgba(94, 234, 212, .45); color: #a7b3c1; }
+.text-editor-pane .milkdown .ProseMirror pre { border: 1px solid #202a36; border-radius: .75rem; background: #10161e; }
+.text-editor-pane .milkdown .ProseMirror hr { border-color: #263242; }
+
 @media (max-width: 800px) {
   .editor-grid { grid-template-columns: 1fr; min-height: auto; }
   .editor-pane { min-height: 430px; }
@@ -109,4 +120,6 @@ button, a, textarea { -webkit-tap-highlight-color: transparent; }
   .status { max-width: 48%; }
   .code-highlight, .code-textarea { font-size: .8rem; padding: .9rem; }
   .find-panel { top: .35rem; right: .35rem; width: calc(100% - .7rem); }
+  .text-editor-pane { min-height: 72vh; }
+  .text-editor-pane .milkdown-root { padding: 1.1rem; }
 }
