@@ -4,7 +4,7 @@ export type ToolDefinition = {
   href: string;
   description: string;
   capabilities: string[];
-  kind: "json" | "text";
+  kind: "json" | "text" | "diff";
 };
 
 export const tools: ToolDefinition[] = [
@@ -23,5 +23,13 @@ export const tools: ToolDefinition[] = [
     description: "Write and format Markdown in a clean, distraction-free editor.",
     capabilities: ["Rich text", "Markdown", "Copy", "Download"],
     kind: "text",
+  },
+  {
+    slug: "text-diff",
+    name: "Text Diff",
+    href: "/diff",
+    description: "Compare two texts and see added, removed, and unchanged lines instantly.",
+    capabilities: ["Line comparison", "Ignore whitespace", "Swap text"],
+    kind: "diff",
   },
 ];
