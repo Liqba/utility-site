@@ -1,0 +1,76 @@
+Hacker News posts about learning programming, learning in general, and AI-related skill atrophy
+
+Directly about AI and learning / skill loss
+
+1. Learning Programming in an Age of LLMs (Sep 2026)
+https://news.ycombinator.com/item?id=49723873
+
+2. Ask HN: How do you handle skill atrophy from using coding agents? (Jun 2026)
+https://news.ycombinator.com/item?id=48554309
+
+3. Ask HN: I hate coding agents. Is this skill issue? (Jul 2026)
+https://news.ycombinator.com/item?id=48844345
+
+4. Ask HN: Anyone else struggle with how to learn coding in the AI era? (Feb 2026)
+https://news.ycombinator.com/item?id=46866165
+
+5. How AI assistance impacts the formation of coding skills (Jan 2026)
+https://news.ycombinator.com/item?id=46820924
+
+6. AI coding assistants are getting worse? (Dec 2025)
+https://news.ycombinator.com/item?id=46542036
+
+7. Ask HN: Are AI Copilots Eroding Our Programming Skills? (Jul 2025)
+https://news.ycombinator.com/item?id=44444175
+
+8. Learn to code, ignore AI, then use AI to code even better (Mar 2025)
+https://news.ycombinator.com/item?id=43503295
+
+9. Ask HN: Did AI make you a worse programmer? (Jan 2025)
+https://news.ycombinator.com/item?id=42614392
+
+10. How would you start to learn coding today? (Jan 2025)
+https://news.ycombinator.com/item?id=42767140
+
+11. What is the most effective way to learn programming? (Dec 2025)
+https://news.ycombinator.com/item?id=46259279
+
+12. Ask HN: Daily practices for building AI/ML skills? (Dec 2023)
+https://news.ycombinator.com/item?id=38638373
+
+General learning, deliberate practice, and building programming skill
+
+13. Ask HN: What does deliberate practice look like for computer programming? (Aug 2017)
+https://news.ycombinator.com/item?id=15068455
+
+14. The Deliberate Practice Guide (Jun 2023)
+https://news.ycombinator.com/item?id=36324546
+
+15. Ask HN: What is your system for learning new things? (Feb 2023)
+https://news.ycombinator.com/item?id=34771415
+
+16. Ask HN: What helped you get good at programming? (May 2022)
+https://news.ycombinator.com/item?id=31240927
+
+17. Ask HN: Learning how to code? (Aug 2023)
+https://news.ycombinator.com/item?id=37175892
+
+18. Ask HN: How did you learn to code? (Dec 2025)
+https://news.ycombinator.com/item?id=46452146
+
+19. Ask HN: I've learned a programming language – how do I solve problems with code? (Nov 2014)
+https://news.ycombinator.com/item?id=8672200
+
+20. Ask HN: How to Learn Systems Programming (Sep 2026)
+https://news.ycombinator.com/item?id=49793090
+
+21. Ask HN: How to best acquire theoretical computer science knowledge? (Aug 2013)
+https://news.ycombinator.com/item?id=6345368
+
+22. Learning to program is getting harder (Feb 2018)
+https://news.ycombinator.com/item?id=16394857
+
+23. How I Failed, Failed, and Finally Succeeded at Learning How to Code (Jan 2013)
+https://news.ycombinator.com/item?id=5142325
+
+Note: This is a curated list of relevant HN story discussions, not every HN post that could possibly be considered relevant. Search phrases used included learning programming with AI, AI coding skill atrophy, learning to code, deliberate practice, and learning new things. The dates and recent titles reflect the search results available on Sep 25, 2026.
