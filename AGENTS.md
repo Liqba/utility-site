@@ -7,5 +7,6 @@
 ## Japanese Duolingo study notes
 
 - Before adding grammar to `japanese-study/grammar.md`, read the existing notes and add only genuinely new points. Do not repeat grammar already covered; if a lesson adds a materially new usage or nuance, record only that addition.
-- Timestamp each new grammar addition with the actual date and time in `Asia/Bangkok` when it is written.
+- Group practice material by local calendar date. Lessons on the same date belong under one date heading, without separate session entries; open a new dated heading only when the date changes.
+- Record only the calendar date in Asia/Bangkok for grammar notes and Anki date tags; do not include time of day or minutes.
 - Before adding vocabulary to `japanese-study/vocabulary-source.tsv`, check for existing entries and avoid duplicates.
